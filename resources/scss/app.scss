@@ -26,3 +26,28 @@ a.nav-link {
 .link {
     color: white !important;
 }
+
+.black {
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
+.body {
+    background-color: rgba(124, 18, 18, 0.596);
+}
+
+.series {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+}
+
+.series:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 15px 20px rgba(0, 0, 0, 0.22);
+}
+
+.poster {
+    height: 50%;
+}

@@ -2,14 +2,16 @@
 
 @section('content')
 
-<div class="bg-dark">
+<div class="body">
 
-<div class="container series py-5 text-center">
+<div class="container  py-5 ">
     @foreach($movies as $movie)
+    
 
-    <div class="col mb-4">
-        <div class="card rounded bg-dark text-light">
-            <img class="img-fluid poster" src="{{Vite::asset('resources/img/logo-no-background.png')}}" />
+
+    <div class="col-6 w-50  m-auto mb-4 series">
+        <div class="card rounded black text-white p-5">
+            <img class="poster" src="{{Vite::asset($movie['Image'])}}" />
             <div class="card-text text-start pt-5 ps-2">
                 <h5>Titolo: "{{$movie['title']}}"; </h5>
                 <h5>Titolo originale: "{{$movie['original_title']}}";  </h5>

@@ -1,7 +1,7 @@
 <footer>
 
 
-<div class="row justify-content-center m-auto bg-dark py-5">
+<div class="row justify-content-center m-auto black py-5">
    
         <div class="col-4 f-s d-flex flex-column">
                 <a class="text-decoration-none link pb-3">Autodescrizione</a>
